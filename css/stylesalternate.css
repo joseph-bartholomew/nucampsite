@@ -2,6 +2,10 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+h1 {
+    text-shadow: 3px 3px #000000;
+}
+
 h1, h2, h3 {
     font-family: "Lobster", cursive;
 }
@@ -20,10 +24,10 @@ footer {
 }
 
 .jumbotron {
-    padding: 30px;
+    padding: 20px;
     background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
     color: white;
-    border: ridge;
+    border: ridge 5px;
     margin: 0;
 }
 
@@ -34,7 +38,8 @@ footer {
 }
 
 .navbar {
-    background-color: #901CAD;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .tab-content {
@@ -48,10 +53,20 @@ a, a:hover {
     text-decoration: none;
   }
 
-  .carousel-caption {
+.carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.carousel {
-    border: solid #5637DD;
+/*.carousel {
+    
+    height: auto;
+    width: max-content;
+}
+
+.homecarousel {
+    
+} */
+
+#login1 {
+    height: 15px;
 }
